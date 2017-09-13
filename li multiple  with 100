@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $(".ul_cls li").each(function(){
+        $(this).text(number= parseInt($(this).text())*100);
+    });
+});
+</script>
+</head>
+<body>
+<ul class='ul_cls'>
+<li>1</li>
+<li>2</li>
+<li>3</li>
+<li>4</li>
+<li>5</li>
+
+</ul>
+
+</body>
+</html>
